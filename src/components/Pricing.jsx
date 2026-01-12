@@ -19,16 +19,18 @@ const Pricing = () => {
   const proFeatures = [
     'Everything in Basic Website Plan',
     'Priority support (24/7)',
-    'Advanced AI automation integration',
-    'Custom chatbot development',
+    'Continuous automation assessment & implementation',
+    'Constantly ensuring everything that can be automated is within your business',
+    'Custom automation solutions development',
     'Hands-on strategy consulting',
-    'Monthly strategy calls',
-    'A/B testing & optimization',
-    'Advanced analytics & reporting',
-    'Marketing automation setup',
-    'Workflow automation',
-    'Custom integrations',
+    'Monthly strategy calls & optimization reviews',
+    'A/B testing & conversion optimization',
+    'Advanced analytics & comprehensive reporting',
+    'Marketing automation setup & management',
+    'Workflow automation across all departments',
+    'Custom integrations & API connections',
     'Dedicated account manager',
+    'Proactive system monitoring & improvements',
   ]
 
   return (
@@ -77,6 +79,7 @@ const Pricing = () => {
           >
             <div className="text-center mb-8">
               <h3 className="text-2xl font-bold text-gray-900 mb-2">Basic Website Plan</h3>
+              <p className="text-sm text-gray-600 mb-4">Website & Website Upkeep</p>
               <div className="mb-4">
                 <span className="text-4xl font-extrabold text-gray-900">$200</span>
                 <span className="text-gray-600"> one-time setup</span>
@@ -119,15 +122,16 @@ const Pricing = () => {
             
             <div className="text-center mb-8">
               <h3 className="text-2xl font-bold mb-2">Pro Upgrade Plan</h3>
+              <p className="text-sm opacity-90 mb-4">Website + Premium Automation Solutions</p>
               <div className="mb-4">
-                <span className="text-4xl font-extrabold">$200</span>
+                <span className="text-4xl font-extrabold">$600</span>
                 <span className="opacity-90"> one-time setup</span>
               </div>
               <div className="mb-2">
                 <span className="text-3xl font-bold">$200</span>
                 <span className="text-lg opacity-90">/month</span>
               </div>
-              <p className="text-sm opacity-80">includes Basic Plan + Pro features</p>
+              <p className="text-sm opacity-80">includes Basic Plan + Premium automation features</p>
             </div>
 
             <ul className="space-y-4 mb-8">

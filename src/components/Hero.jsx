@@ -9,7 +9,7 @@ const Hero = () => {
             Build. Automate. Grow.
           </h1>
           <p className="text-xl sm:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto">
-            Transform your business with stunning, conversion-focused websites and powerful AI automation.
+            Transform your business with stunning, conversion-focused websites and automatic systems that will save time and money for your company.
             Your success starts with the right digital foundation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

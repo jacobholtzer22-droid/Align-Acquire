@@ -75,23 +75,23 @@ const WhyChooseUs = () => {
 
           <div className="p-8 bg-gray-50 rounded-xl">
             <h3 className="text-2xl font-semibold text-gray-900 mb-4">
-              AI-Powered Automation
+              Automatic Systems & Automation
             </h3>
             <p className="text-gray-600 mb-4">
-              Beyond websites, we help streamline your operations with intelligent automation. From customer service chatbots to workflow optimization, we leverage AI to save you time and money.
+              Beyond websites, we help streamline your operations with automatic systems that will save time and money for your company. From customer service solutions to workflow optimization, we identify and implement automation opportunities throughout your business.
             </p>
             <ul className="space-y-2 text-gray-600">
               <li className="flex items-start">
                 <span className="text-brand-green mr-2">✓</span>
-                <span>Custom AI solutions for your needs</span>
+                <span>Custom automation solutions tailored to your needs</span>
               </li>
               <li className="flex items-start">
                 <span className="text-brand-green mr-2">✓</span>
-                <span>Process automation and integration</span>
+                <span>Process automation and seamless integrations</span>
               </li>
               <li className="flex items-start">
                 <span className="text-brand-green mr-2">✓</span>
-                <span>Ongoing optimization and support</span>
+                <span>Continuous optimization and dedicated support</span>
               </li>
             </ul>
           </div>

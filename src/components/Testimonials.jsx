@@ -12,7 +12,7 @@ const Testimonials = () => {
       name: 'Michael Chen',
       role: 'CEO, TechFlow Solutions',
       image: '👨',
-      quote: 'The Pro plan has been a game-changer. The AI automation they set up saves us 15+ hours per week, and our website runs flawlessly. Highly recommend upgrading if you\'re serious about scaling.'
+      quote: 'The Pro plan has been a game-changer. The automatic systems they set up save us 15+ hours per week, and our website runs flawlessly. They constantly find new ways to automate our processes. Highly recommend upgrading if you\'re serious about scaling.'
     },
     {
       name: 'Emily Rodriguez',

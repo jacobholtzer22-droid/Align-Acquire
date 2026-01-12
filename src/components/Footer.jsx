@@ -12,7 +12,7 @@ const Footer = () => {
               </span>
             </div>
             <p className="text-gray-400 mb-4 max-w-md">
-              Building powerful websites and AI automation solutions that help businesses grow, scale, and succeed in the digital age.
+              Building powerful websites and automatic systems that save time and money, helping businesses grow, scale, and succeed in the digital age.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-brand-blue transition" aria-label="Facebook">
