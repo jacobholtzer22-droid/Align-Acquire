@@ -47,11 +47,41 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t">
-            <a href="#features" className="block px-3 py-2 text-gray-700 hover:text-brand-blue">Features</a>
-            <a href="#why-us" className="block px-3 py-2 text-gray-700 hover:text-brand-blue">Why Us</a>
-            <a href="#pricing" className="block px-3 py-2 text-gray-700 hover:text-brand-blue">Pricing</a>
-            <a href="#testimonials" className="block px-3 py-2 text-gray-700 hover:text-brand-blue">Testimonials</a>
-            <a href="#contact" className="block px-3 py-2 bg-brand-blue text-white rounded-lg">Get Started</a>
+            <a 
+              href="#features" 
+              onClick={() => setIsOpen(false)}
+              className="block px-3 py-2 text-gray-700 hover:text-brand-blue"
+            >
+              Features
+            </a>
+            <a 
+              href="#why-us" 
+              onClick={() => setIsOpen(false)}
+              className="block px-3 py-2 text-gray-700 hover:text-brand-blue"
+            >
+              Why Us
+            </a>
+            <a 
+              href="#pricing" 
+              onClick={() => setIsOpen(false)}
+              className="block px-3 py-2 text-gray-700 hover:text-brand-blue"
+            >
+              Pricing
+            </a>
+            <a 
+              href="#testimonials" 
+              onClick={() => setIsOpen(false)}
+              className="block px-3 py-2 text-gray-700 hover:text-brand-blue"
+            >
+              Testimonials
+            </a>
+            <a 
+              href="#contact" 
+              onClick={() => setIsOpen(false)}
+              className="block px-3 py-2 bg-brand-blue text-white rounded-lg"
+            >
+              Get Started
+            </a>
           </div>
         </div>
       )}
