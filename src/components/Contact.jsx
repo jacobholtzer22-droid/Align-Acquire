@@ -31,20 +31,20 @@ const Contact = () => {
   }
 
   return (
-    <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-brand-blue to-brand-green">
+    <section id="contact" className="py-12 md:py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-brand-blue to-brand-green">
       <div className="max-w-4xl mx-auto">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4">
+        <div className="text-center mb-8 md:mb-12">
+          <h2 className="text-2xl sm:text-4xl md:text-5xl font-bold text-white mb-3 md:mb-4">
             Ready to Get Started?
           </h2>
-          <p className="text-xl text-blue-100 max-w-2xl mx-auto">
+          <p className="text-base md:text-xl text-blue-100 max-w-2xl mx-auto px-2 leading-relaxed">
             Fill out the form below and we'll get back to you within 24 hours to discuss your project
           </p>
         </div>
 
-        <div className="bg-white rounded-2xl shadow-2xl p-8 md:p-12">
-          <form onSubmit={handleSubmit} className="space-y-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="bg-white rounded-2xl shadow-2xl p-6 md:p-8 lg:p-12">
+          <form onSubmit={handleSubmit} className="space-y-5 md:space-y-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-6">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
                   Full Name *
@@ -56,7 +56,7 @@ const Contact = () => {
                   required
                   value={formData.name}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-blue focus:border-transparent"
+                  className="w-full px-4 py-2.5 md:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-blue focus:border-transparent text-base"
                   placeholder="John Doe"
                 />
               </div>
@@ -72,13 +72,13 @@ const Contact = () => {
                   required
                   value={formData.email}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-blue focus:border-transparent"
+                  className="w-full px-4 py-2.5 md:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-blue focus:border-transparent text-base"
                   placeholder="john@example.com"
                 />
               </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-6">
               <div>
                 <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
                   Phone Number
@@ -89,7 +89,7 @@ const Contact = () => {
                   name="phone"
                   value={formData.phone}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-blue focus:border-transparent"
+                  className="w-full px-4 py-2.5 md:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-blue focus:border-transparent text-base"
                   placeholder="(555) 123-4567"
                 />
               </div>
@@ -103,7 +103,7 @@ const Contact = () => {
                   name="plan"
                   value={formData.plan}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-blue focus:border-transparent"
+                  className="w-full px-4 py-2.5 md:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-blue focus:border-transparent text-base"
                 >
                   <option value="basic">Basic Website Plan</option>
                   <option value="pro">Pro Upgrade Plan</option>
@@ -122,14 +122,14 @@ const Contact = () => {
                 rows="5"
                 value={formData.message}
                 onChange={handleChange}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-blue focus:border-transparent"
+                className="w-full px-4 py-2.5 md:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-blue focus:border-transparent text-base resize-none"
                 placeholder="What kind of website are you looking for? Any specific features or requirements?"
               />
             </div>
 
             <button
               type="submit"
-              className="w-full bg-gradient-to-r from-brand-blue to-brand-green text-white py-4 rounded-lg font-semibold text-lg hover:opacity-90 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+              className="w-full bg-gradient-to-r from-brand-blue to-brand-green text-white py-3 md:py-4 rounded-lg font-semibold text-base md:text-lg hover:opacity-90 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
               Send Message
             </button>
