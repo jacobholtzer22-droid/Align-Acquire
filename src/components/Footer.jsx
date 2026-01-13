@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-gray-300 py-8 md:py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-8 mb-6 md:mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-8 mb-6 md:mb-8">
           <div className="col-span-1 md:col-span-2">
             <div className="mb-3 md:mb-4">
               <span className="text-xl md:text-2xl font-bold bg-gradient-to-r from-brand-blue to-brand-green bg-clip-text text-transparent">
@@ -46,22 +46,6 @@ const Footer = () => {
               <li><a href="#pricing" className="hover:text-brand-green transition">Pricing</a></li>
               <li><a href="#testimonials" className="hover:text-brand-green transition">Testimonials</a></li>
               <li><a href="#contact" className="hover:text-brand-green transition">Contact</a></li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-white font-semibold mb-3 md:mb-4 text-base md:text-lg">Contact Info</h3>
-            <ul className="space-y-2 text-sm md:text-base text-gray-400">
-              <li>Email: hello@alignacquire.com</li>
-              <li>Phone: (555) 123-4567</li>
-              <li className="mt-4">
-                <div className="text-white font-semibold mb-2">Business Hours</div>
-                <div className="text-xs md:text-sm">
-                  Monday - Friday: 9am - 6pm EST<br/>
-                  Saturday: 10am - 4pm EST<br/>
-                  Sunday: Closed
-                </div>
-              </li>
             </ul>
           </div>
         </div>

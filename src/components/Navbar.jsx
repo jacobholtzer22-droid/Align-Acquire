@@ -1,7 +1,11 @@
 import React, { useState } from 'react'
+// Import your logo here - update the filename/extension to match your logo file
+// Supported: logo.png, logo.svg, logo.jpg, logo.webp
+import logo from '../assets/logo.png'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
+  const [showLogo, setShowLogo] = useState(true)
 
   return (
     <nav className="bg-white shadow-md fixed w-full top-0 z-50">
@@ -9,9 +13,18 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0 flex items-center">
-              <span className="text-2xl font-bold bg-gradient-to-r from-brand-blue to-brand-green bg-clip-text text-transparent">
-                Align & Acquire
-              </span>
+              {showLogo ? (
+                <img 
+                  src={logo} 
+                  alt="Align & Acquire Logo" 
+                  className="h-10 w-auto"
+                  onError={() => setShowLogo(false)}
+                />
+              ) : (
+                <span className="text-2xl font-bold bg-gradient-to-r from-brand-blue to-brand-green bg-clip-text text-transparent">
+                  Align & Acquire
+                </span>
+              )}
             </div>
           </div>
           
