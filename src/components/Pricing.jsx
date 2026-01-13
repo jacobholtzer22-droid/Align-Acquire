@@ -81,11 +81,11 @@ const Pricing = () => {
               <h3 className="text-2xl font-bold text-gray-900 mb-2">Basic Website Plan</h3>
               <p className="text-sm text-gray-600 mb-4">Website & Website Upkeep</p>
               <div className="mb-4">
-                <span className="text-4xl font-extrabold text-gray-900">$200</span>
+                <span className="text-4xl font-extrabold text-gray-900">$500</span>
                 <span className="text-gray-600"> one-time setup</span>
               </div>
               <div className="text-gray-600 mb-2">
-                <span className="text-3xl font-bold text-brand-blue">$100</span>
+                <span className="text-3xl font-bold text-brand-blue">$150</span>
                 <span className="text-lg">/month</span>
               </div>
               <p className="text-sm text-gray-500">for maintenance & updates</p>
@@ -124,13 +124,14 @@ const Pricing = () => {
               <h3 className="text-2xl font-bold mb-2">Pro Upgrade Plan</h3>
               <p className="text-sm opacity-90 mb-4">Website + Premium Automation Solutions</p>
               <div className="mb-4">
-                <span className="text-4xl font-extrabold">$600</span>
+                <span className="text-4xl font-extrabold">$500-$2,500</span>
                 <span className="opacity-90"> one-time setup</span>
               </div>
               <div className="mb-2">
-                <span className="text-3xl font-bold">$200</span>
+                <span className="text-3xl font-bold">$100-$400</span>
                 <span className="text-lg opacity-90">/month</span>
               </div>
+              <p className="text-sm opacity-80 mb-2">Prices vary based on automation implementation</p>
               <p className="text-sm opacity-80">includes Basic Plan + Premium automation features</p>
             </div>
 
